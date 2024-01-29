@@ -1,0 +1,51 @@
+footer {
+	background-color: #131f22;
+	& .socials {
+		padding-right: 2rem;
+		border-right: 0.2rem solid var(--bg-color);
+		padding-left: 2rem;
+		& h1 {
+			margin-bottom: 1.8rem;
+		}
+		& p {
+			width: 100%;
+		}
+		& .links {
+			margin-top: 2.2rem;
+			display: flex;
+			align-items: center;
+			gap: 3rem;
+			& .icons {
+				padding: 0.2rem;
+				background-color: var(--bg-color);
+				cursor: pointer;
+			}
+			& i {
+				font-size: 2.8rem;
+				font-weight: 500;
+				color: var(--btn-color);
+			}
+		}
+	}
+
+	/*** featured section */
+
+	& .featured {
+		& > div {
+			align-items: center;
+		}
+		/** navigations */
+		& .navigations {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			row-gap: 2rem;
+		}
+
+		/* image */
+
+		& .image img {
+			width: 66%;
+		}
+	}
+}

@@ -1,0 +1,84 @@
+.services-section {
+	& tr {
+		/* display: flex; */
+		/* flex-direction: column; */
+		/* align-items: center; */
+		/* justify-content: space-between; */
+		display: grid;
+		grid-template-columns: repeat(5, 1fr);
+		place-items: center;
+		box-shadow: 0 0.3rem 0 grey;
+		/* margin-bottom: 10px; */
+		border-bottom: 4px solid transparent;
+		color: var(--bg-color);
+		&:last-child {
+			box-shadow: none;
+		}
+	}
+	& thead {
+		border-bottom: 4px solid transparent;
+		box-shadow: 0 0.3rem 0 grey;
+		margin-bottom: 10px;
+	}
+	& td {
+		font-size: 1.7rem;
+		letter-spacing: 0.1rem;
+		padding: 3rem;
+		text-align: center;
+		color: var(--dark-color);
+		/* width: 30rem; */
+	}
+	& .btns {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: start;
+		row-gap: 2rem;
+	}
+	& th {
+		font-size: 1.7rem;
+		letter-spacing: 0.1rem;
+		padding: 3rem;
+		text-align: center;
+		color: var(--dark-color);
+		/* width: 30rem; */
+	}
+}
+
+.deleteLink {
+	color: #d0d7d2;
+	background: #5c3b91;
+	border-radius: 1rem;
+	transition: all 0.3s ease-in-out;
+	width: fit-content;
+	padding: 1.3rem 3rem;
+	cursor: pointer;
+	margin: 0 auto;
+	&:hover {
+		color: #efecec;
+		background: rgb(220, 87, 53);
+		font-weight: bold;
+	}
+}
+#addnew {
+	color: #d0d7d2;
+	background: #5c3b91;
+	border-radius: 1rem;
+	transition: all 0.3s ease-in-out;
+	width: fit-content;
+	padding: 1.3rem 3rem;
+	cursor: pointer;
+	margin: 0 auto;
+	&:hover {
+		color: #efecec;
+		background: rgb(220, 87, 53);
+		font-weight: bold;
+	}
+}
+
+table {
+	background: #fff;
+	box-shadow: rgba(255, 255, 255, 0.2) 0 7px 29px 0px;
+	border-collapse: collapse;
+	border-radius: 1rem;
+}

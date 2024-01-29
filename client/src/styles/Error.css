@@ -1,0 +1,56 @@
+#error-page {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	& .content {
+		max-width: 70rem;
+		text-align: center;
+		& h2.header {
+			font-size: 18vw;
+			line-height: 1em;
+			animation: animate 5s ease-in-out infinite;
+			background: -webkit-repeating-linear-gradient(-60deg, #71b7e6, var(--btn-color), #b98acc, #ee8176, #b98acc, var(--btn-color), #9b59b6);
+			background-size: 500%;
+			-webkit-background-clip: text;
+			background-clip: text;
+			-webkit-text-fill-color: transparent;
+			position: relative;
+			margin-bottom: 2rem;
+		}
+	}
+	& h4 {
+		font-size: 3vw;
+	}
+	& p {
+		font-size: 1.8rem;
+		width: 60%;
+		margin: 2rem auto;
+		text-wrap: balance;
+	}
+	& .btns {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 2rem;
+		margin: 1rem auto;
+		margin-bottom: 3rem;
+	}
+}
+
+@keyframes animate {
+	0% {
+		background-position: 0 0;
+	}
+	25% {
+		background-position: 100% 0;
+	}
+	50% {
+		background-position: 100% 100%;
+	}
+	75% {
+		background-position: 0% 100%;
+	}
+	100% {
+		background-position: 0% 0%;
+	}
+}

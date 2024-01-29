@@ -1,8 +1,8 @@
 # LMS DIGITAL PORTFOLIO
 
-A social networking platform with automated content moderation and context-based authentication system.
+A Digital Portfolio Using MERN with ADMIN PANEL.
 
-[Watch Demo](https://youtu.be/Tmncayg7FeU)
+[Watch Demo](https://youtu.be/N8G1eA73mV8)
 
 ![UI-community](https://raw.githubusercontent.com/nz-m/SocialEcho/main/resources/UI-community.png)
 

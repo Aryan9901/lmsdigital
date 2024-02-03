@@ -1,28 +1,8 @@
 # LMS DIGITAL PORTFOLIO
 
-A Digital Portfolio Using MERN with ADMIN PANEL.
-
-[Watch Demo](https://youtu.be/N8G1eA73mV8)
-
-home page
-![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/homepage.png?raw=true)
-home hero page
-![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/homehero.png?raw=true)
-about page
-![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/about.png?raw=true)
-contact page
-![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/contactpage.png?raw=true)
-services page
-![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/servicespage.png?raw=true)
-View user's admin panel
-![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/ADMINPANEL.png?raw=true)
-View contacts admin panel
-![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/ADMINCONTACTS.png?raw=trueD)
-view, add new or edit services admin panel
-![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/SERVICEADMIN.png?raw=true)
-
 ## Table of Contents
 
+- [Screenshots](#Snapshots)
 - [Project Overview](#project-overview)
 - [Features](#features)
 - [Technologies](#technologies)
@@ -30,6 +10,28 @@ view, add new or edit services admin panel
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [License](#license)
+
+A Digital Portfolio Using MERN with ADMIN PANEL.
+
+[Watch Demo](https://youtu.be/N8G1eA73mV8)
+
+## Snapshots
+#### home page
+![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/homepage.png?raw=true)
+#### home hero page
+![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/homehero.png?raw=true)
+#### about page
+![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/about.png?raw=true)
+#### contact page
+![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/contactpage.png?raw=true)
+#### services page
+![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/servicespage.png?raw=true)
+#### View user's admin panel
+![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/ADMINPANEL.png?raw=true)
+#### View contacts admin panel
+![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/ADMINCONTACTS.png?raw=trueD)
+#### view, add new or edit services admin panel
+![UI-community](https://github.com/Aryan9901/lmsdigital/blob/master/resources/SERVICEADMIN.png?raw=true)
 
 ## Project Overview
 

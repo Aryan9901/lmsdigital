@@ -4,7 +4,7 @@ import "../styles/Contact.css";
 import { useAuth } from "../store/auth";
 import { toast } from "react-toastify";
 
-const URL = import.meta.VITE_APP_URL;
+const URL = import.meta.env.VITE_APP_URL;
 
 function Contact() {
 	const { user } = useAuth();

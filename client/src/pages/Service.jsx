@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 
-const URL = import.meta.VITE_APP_URL;
+const URL = import.meta.env.VITE_APP_URL;
 
 function Service() {
 	const [services, setServices] = useState([]);

@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useAuth } from "../store/auth";
 
-const URL = import.meta.VITE_APP_URL;
+const URL = import.meta.env.VITE_APP_URL;
 
 function Register() {
 	const [user, setUser] = useState({

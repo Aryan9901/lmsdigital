@@ -4,7 +4,7 @@ import { toast } from "react-toastify";
 import { Link } from "react-router-dom";
 import "../styles/AdminUsers.css";
 
-const URL = import.meta.VITE_APP_URL;
+const URL = import.meta.env.VITE_APP_URL;
 
 function AdminUsers() {
 	const [users, setUsers] = useState([]);

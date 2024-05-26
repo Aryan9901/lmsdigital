@@ -4,6 +4,8 @@ import "../styles/Contact.css";
 import { useAuth } from "../store/auth";
 import { toast } from "react-toastify";
 
+const URL = import.meta.VITE_APP_URL;
+
 function Contact() {
 	const { user } = useAuth();
 
@@ -44,7 +46,7 @@ function Contact() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const response = await fetch(`http://localhost:3000/api/v1/form/contact`, {
+			const response = await fetch(`${URL}/api/v1/form/contact`, {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",

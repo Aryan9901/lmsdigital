@@ -1,12 +1,14 @@
 import { useEffect, useState } from "react";
 import { toast } from "react-toastify";
 
+const URL = import.meta.VITE_APP_URL;
+
 function Service() {
 	const [services, setServices] = useState([]);
 
 	const getServices = async () => {
 		try {
-			const response = await fetch(`http://localhost:3000/api/v1/data/service`, {
+			const response = await fetch(`${URL}/api/v1/data/service`, {
 				method: "GET",
 				headers: {
 					"Content-Type": "application/json",

@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useAuth } from "../store/auth";
 
+const URL = import.meta.VITE_APP_URL;
+
 function Login() {
 	const [user, setUser] = useState({
 		email: "",
@@ -26,7 +28,7 @@ function Login() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const response = await fetch(`http://localhost:3000/api/v1/auth/login`, {
+			const response = await fetch(`${URL}/api/v1/auth/login`, {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",

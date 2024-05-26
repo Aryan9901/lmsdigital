@@ -3,6 +3,8 @@ import { toast } from "react-toastify";
 import { useAuth } from "../store/auth";
 import { useNavigate, useParams } from "react-router-dom";
 
+const URL = import.meta.VITE_APP_URL;
+
 function AdminUpdateService() {
 	const [service, setService] = useState({
 		service: "",
@@ -27,7 +29,7 @@ function AdminUpdateService() {
 
 	const getSingleServiceData = async (id) => {
 		try {
-			const response = await fetch(`http://localhost:3000/api/v1/admin/services/${id}`, {
+			const response = await fetch(`${URL}/api/v1/admin/services/${id}`, {
 				method: "GET",
 				headers: {
 					Authorization: authorizationToken,
@@ -48,7 +50,7 @@ function AdminUpdateService() {
 	const handleSubmit = async (e, id) => {
 		e.preventDefault();
 		try {
-			const response = await fetch(`http://localhost:3000/api/v1/admin/services/update/${id}`, {
+			const response = await fetch(`${URL}/api/v1/admin/services/update/${id}`, {
 				method: "PATCH",
 				headers: {
 					Authorization: authorizationToken,

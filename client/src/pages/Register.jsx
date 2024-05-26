@@ -5,6 +5,8 @@ import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import { useAuth } from "../store/auth";
 
+const URL = import.meta.VITE_APP_URL;
+
 function Register() {
 	const [user, setUser] = useState({
 		username: "",
@@ -29,7 +31,7 @@ function Register() {
 	const handleSubmit = async (e) => {
 		e.preventDefault();
 		try {
-			const response = await fetch(`http://localhost:3000/api/v1/auth/register`, {
+			const response = await fetch(`${URL}/api/v1/auth/register`, {
 				method: "POST",
 				headers: {
 					"Content-Type": "application/json",

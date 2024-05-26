@@ -4,6 +4,8 @@ import { createContext, useContext, useEffect, useState } from "react";
 
 export const AuthContext = createContext();
 
+const URL = import.meta.VITE_APP_URL;
+
 export const AuthProvider = ({ children }) => {
 	const [user, setUser] = useState("");
 	const [token, setToken] = useState(localStorage.getItem("token"));
@@ -26,7 +28,7 @@ export const AuthProvider = ({ children }) => {
 	const userAuthentication = async () => {
 		try {
 			setIsLoading(true);
-			const response = await fetch(`http://localhost:3000/api/v1/auth/user`, {
+			const response = await fetch(`${URL}/api/v1/auth/user`, {
 				method: "GET",
 				headers: {
 					Authorization: `Bearer ${token}`,

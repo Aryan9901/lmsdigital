@@ -1,5 +1,5 @@
 footer {
-	background-color: #131f22;
+	background-color: #f3f3f3;
 	& .socials {
 		padding-right: 2rem;
 		border-right: 0.2rem solid var(--bg-color);

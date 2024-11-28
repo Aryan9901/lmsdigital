@@ -1,4 +1,4 @@
-# LMS DIGITAL PORTFOLIO
+# LMS DIGITAL CV
 
 ## Table of Contents
 
